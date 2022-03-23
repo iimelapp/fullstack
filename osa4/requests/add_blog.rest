@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZpcHN1IiwiaWQiOiI2MjJmMTRlMWZlNzA3MWVjOTRlYTU1NjQiLCJpYXQiOjE2NDcyNTYzMzh9.5sOW9gUIorYAKlcqa4g1RuLOtTkWQzeNUSrlbTx-BYY
+
+{
+    "author": "Vilho",
+    "title": "Vilhon blogi",
+    "url": "blog.blogger.com",
+    "likes": 1
+}
