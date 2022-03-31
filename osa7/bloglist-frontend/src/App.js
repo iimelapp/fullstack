@@ -76,13 +76,10 @@ const App = () => {
 
   /*const removeBlog = (id) => {
     const toRemove = blogs.find(b => b.id === id)
-
     const ok = window.confirm(`remove '${toRemove.title}' by ${toRemove.author}?`)
-
     if (!ok) {
       return
     }
-
     blogService.remove(id).then(() => {
       const updatedBlogs = blogs
         .filter(b => b.id!==id)
